@@ -1,0 +1,28 @@
+
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.content {
+    width: 85%;
+   /* background-color: #fff; */
+   background-image: url(img/cheeseburger-fqzh8aanxuwac9sg.jpg);
+   background-position: left center;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   /* align-items: center; */
+   /* justify-content: center; */
+   color: #fff;
+   padding: 100px 0 0 60px;
+   gap: 20px;
+}
+
+
+.content h2,h3 {
+    font-size: 2.0rem;
+    font-family: var(--font-roboto);
+}
+
